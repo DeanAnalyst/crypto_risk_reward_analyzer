@@ -66,9 +66,9 @@ The core visualization is an interactive scatter plot (generated with Plotly) wh
 
 Below is a static preview of the risk-reward profile:
 
-![Crypto Risk-Reward Profile Preview](output/plots/risk_reward_profile.png)
+![Crypto Risk-Reward Profile Preview](output/risk_reward_profile.png)
 
-[View the interactive Risk-Reward Profile](https://deananalyst.github.io/crypto_risk_reward_analyzer/output/interactive_plots/risk_reward_profile.html)
+[View the interactive Risk-Reward Profile](https://deananalyst.github.io/crypto_risk_reward_analyzer/notebooks/output/interactive_plots/risk_reward_profile.html)
 
 
 ### Quadrant Analysis
