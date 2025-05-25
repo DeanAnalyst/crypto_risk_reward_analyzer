@@ -4,8 +4,7 @@
 
 This project performs a cross-sectional analysis of a cryptocurrency market snapshot to profile digital assets based on custom-defined "Risk" and "Reward/Activity" scores. It visualizes these profiles on an interactive 2D scatter plot and employs an anomaly detection model (Isolation Forest) to identify cryptocurrencies exhibiting unusual market characteristics relative to their peers. The goal is to provide a framework for understanding the diverse risk-reward dynamics within the crypto market at a given point in time.
 
-**View the interactive analysis notebook (converted to HTML):** [Link to your GitHub Pages HTML output of the notebook]
-**(You'll replace this with the actual link once deployed)**
+**View the interactive analysis notebook (converted to HTML):** [https://deananalyst.github.io/crypto_risk_reward_analyzer/notebooks/01_crypto_risk_reward_analysis.html]
 
 ## Dataset
 
@@ -65,7 +64,11 @@ The core visualization is an interactive scatter plot (generated with Plotly) wh
 *   **Size:** Represents Market Cap (Log-transformed).
 *   **Hover:** Provides detailed information for each coin.
 
-*(Embed a static image of your Plotly chart here, and link to the interactive HTML version)*
+Below is a static preview of the risk-reward profile:
+
+![Crypto Risk-Reward Profile Preview](output/plots/risk_reward_profile.png)
+
+[View the interactive Risk-Reward Profile](https://deananalyst.github.io/crypto_risk_reward_analyzer/output/interactive_plots/risk_reward_profile.html)
 
 
 ### Quadrant Analysis
